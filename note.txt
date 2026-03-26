@@ -1,0 +1,28 @@
+factorial(4) = 24
+
+   if(4==0):(false)
+
+   return 4*factorial(3) = 4 * 6 = 24
+
+   factorial(3) = 6
+     
+     if(3==0):(false)
+
+     return 3*factorial(2) = 3*2 = 6
+
+    factorial(2) = 2
+      if(2==0):(false)
+
+      return 2*factorial(1) 2*1 = 2
+
+    factorial(1) = 1
+      
+      if(1==0):(false)
+
+      return 1*factorial(0) = 1*1 = 1
+
+    factorial(0)  = 1
+
+     if(0==0) : true
+       
+       return 1   = 1
