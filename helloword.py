@@ -1,1152 +1,1165 @@
-# # # print("hello world", end=" ")
-# # # print("welcome python")
-# # # print("laptop","mouse","keyboard",sep="\'")
+# # # # print("hello world", end=" ")
+# # # # print("welcome python")
+# # # # print("laptop","mouse","keyboard",sep="\'")
 
 
-# # # # escape sequence
+# # # # # escape sequence
 
-# # # # \n
-# # # # \t
+# # # # # \n
+# # # # # \t
 
 
-# # # # jgjgvghfghfhg - single line comment
+# # # # # jgjgvghfghfhg - single line comment
 
-# # # '''
-# # # print("hello")
-# # # print("welcome")
-# # # print("hi")
+# # # # '''
+# # # # print("hello")
+# # # # print("welcome")
+# # # # print("hi")
 
-# # # multiline command
-# # # '''
+# # # # multiline command
+# # # # '''
 
-# # # # data Types
+# # # # # data Types
 
-# # # '''
-# # # simple dataType
+# # # # '''
+# # # # simple dataType
 
-# # # 1. integer  - 100
+# # # # 1. integer  - 100
 
-# # # 2. string   - "whatever"
+# # # # 2. string   - "whatever"
 
-# # # 3. float    - 50.2
+# # # # 3. float    - 50.2
 
-# # # 4. boolean  - True , False
+# # # # 4. boolean  - True , False
 
-# # # '''
+# # # # '''
 
-# # # '''
-# # # complex DataType
+# # # # '''
+# # # # complex DataType
 
-# # # 1. list
+# # # # 1. list
 
-# # # 2. Dictionary
+# # # # 2. Dictionary
 
-# # # 3. Tuple
+# # # # 3. Tuple
 
-# # # 4. set
+# # # # 4. set
 
-# # # '''
+# # # # '''
 
-# # # # variables 
+# # # # # variables 
 
-# # # name = "navi"
-# # # age = 15
+# # # # name = "navi"
+# # # # age = 15
 
-# # # print(name,age , sep=",")
+# # # # print(name,age , sep=",")
 
-# # # # assignment 
+# # # # # assignment 
 
-# # # # single assignment
+# # # # # single assignment
 
-# # # n = 5
+# # # # n = 5
 
-# # # print("sigle assignment :- ", n)
+# # # # print("sigle assignment :- ", n)
 
-# # # # multi assignment
+# # # # # multi assignment
 
-# # # name1,age1,launguage = "navi",15,True
+# # # # name1,age1,launguage = "navi",15,True
 
-# # # print("multi assignment :- ", name1, age1,launguage)
+# # # # print("multi assignment :- ", name1, age1,launguage)
 
 
 
-# # # # Indexing
+# # # # # Indexing
 
-# # # name2 = "john"
+# # # # name2 = "john"
 
-# # # print(name2[0])
+# # # # print(name2[0])
 
-# # # # immutability
+# # # # # immutability
 
-# # # # name2[0] = "R"
+# # # # # name2[0] = "R"
 
-# # # # print(name2)
+# # # # # print(name2)
 
 
 
-# # # # operators
+# # # # # operators
 
 
-# # # '''
-# # # 1 . arithmetic operator
-# # # 2 . assignment operator
-# # # 3 . comparision operator
-# # # 4 . logical operator
-# # # 5 . bitwise operator
-# # # 6 . membership operator
-# # # '''
+# # # # '''
+# # # # 1 . arithmetic operator
+# # # # 2 . assignment operator
+# # # # 3 . comparision operator
+# # # # 4 . logical operator
+# # # # 5 . bitwise operator
+# # # # 6 . membership operator
+# # # # '''
 
-# # # # 1. arithmetic operator 
+# # # # # 1. arithmetic operator 
 
-# # # # addition      +
+# # # # # addition      +
 
-# # # print(1 + 3)
+# # # # print(1 + 3)
 
-# # # # subraction    -
+# # # # # subraction    -
 
-# # # print(2 - 1)
+# # # # print(2 - 1)
 
-# # # # multiplication *
+# # # # # multiplication *
 
-# # # print(3*3)
+# # # # print(3*3)
 
-# # # # division   /
+# # # # # division   /
 
-# # # print(5 / 5)
+# # # # print(5 / 5)
 
-# # # # modulus    %
+# # # # # modulus    %
 
-# # # print(9%10)
+# # # # print(9%10)
 
-# # # # Exponencial **
+# # # # # Exponencial **
 
-# # # print(4**2) # 4^2 = 4*4 = 16
+# # # # print(4**2) # 4^2 = 4*4 = 16
 
 
-# # # # floar division // 
+# # # # # floar division // 
 
-# # # print(10 // 2)
+# # # # print(10 // 2)
 
-# # # '''
-# # # Bodmas 
+# # # # '''
+# # # # Bodmas 
 
-# # # b - bracket
-# # # o - order
-# # # d - diviaion
-# # # m - multiplication
-# # # a - addition
-# # # s - subraction
-# # # '''
+# # # # b - bracket
+# # # # o - order
+# # # # d - diviaion
+# # # # m - multiplication
+# # # # a - addition
+# # # # s - subraction
+# # # # '''
 
 
 
-# # # print(2**3**(2%10)) #        2**3**2 = 2^9
+# # # # print(2**3**(2%10)) #        2**3**2 = 2^9
 
-# # # print(2**9)
+# # # # print(2**9)
 
 
 
-# # # # Assignment operator
+# # # # # Assignment operator
 
-# # # num1 = 10
-# # # additionVal = 100
+# # # # num1 = 10
+# # # # additionVal = 100
 
-# # # num1 /=  additionVal
+# # # # num1 /=  additionVal
 
-# # # print(num1)
+# # # # print(num1)
 
 
-# # # # comparision & Relational operator
+# # # # # comparision & Relational operator
 
-# # # '''
-# # # lessThen     <       (5<5)     False
+# # # # '''
+# # # # lessThen     <       (5<5)     False
 
-# # # greaterThen  >       (5>5)     False
+# # # # greaterThen  >       (5>5)     False
 
-# # # lessThenEq   <=      (5<=5)    True
+# # # # lessThenEq   <=      (5<=5)    True
 
-# # # GreaterThenEq >=     (10>=2)   True
+# # # # GreaterThenEq >=     (10>=2)   True
 
-# # #    ==     (10=="10") False
+# # # #    ==     (10=="10") False
 
-# # #    !=     (10 != "10") True
+# # # #    !=     (10 != "10") True
 
 
 
-# # # '''
-# # # print(10>10)
-# # # print(10>.5)
-# # # print(10=="10")
+# # # # '''
+# # # # print(10>10)
+# # # # print(10>.5)
+# # # # print(10=="10")
 
-# # # print("10")
-# # # print(10)
+# # # # print("10")
+# # # # print(10)
 
 
-# # # a = "siva"
-# # # b = "Siva"
+# # # # a = "siva"
+# # # # b = "Siva"
 
-# # # print("s :-", ord("s"))
-# # # print("S :-", ord("S"))
+# # # # print("s :-", ord("s"))
+# # # # print("S :-", ord("S"))
 
-# # # print(a==b)
+# # # # print(a==b)
 
 
 
-# # # a = 5
-# # # b = 7
-
-# # # print(a,b)
-
-# # # # temp = a
-
-# # # # a = b 
-
-# # # # b = temp
+# # # # a = 5
+# # # # b = 7
 
 # # # # print(a,b)
 
-# # # a,b = b,a
+# # # # # temp = a
 
-# # # print(a,b)
+# # # # # a = b 
 
+# # # # # b = temp
 
+# # # # # print(a,b)
 
-# # # # membership operator [in] , [not in]
+# # # # a,b = b,a
 
-# # # group = [1,2,3,4,5]
+# # # # print(a,b)
 
-# # # print(50 not in group)
 
 
-# # # # logical operator
+# # # # # membership operator [in] , [not in]
 
-# # # '''
-# # # AND   -- > and
-# # # OR    -- > or
-# # # NOT   -- > not
+# # # # group = [1,2,3,4,5]
 
-# # # '''
+# # # # print(50 not in group)
 
 
-# # # # AND 
+# # # # # logical operator
 
-# # # # True and True and True = True 
-# # # # True and False and True = False
+# # # # '''
+# # # # AND   -- > and
+# # # # OR    -- > or
+# # # # NOT   -- > not
 
+# # # # '''
 
-# # # # OR
 
-# # # # True or False or False = True
-# # # # False or False or False = False
+# # # # # AND 
 
-# # # # NOT
+# # # # # True and True and True = True 
+# # # # # True and False and True = False
 
-# # # # not(True) = False
-# # # # not(False) = True 
 
+# # # # # OR
 
-# # # print(5>5 and 5==5 and 1>=.1000) # False
-# # # print(5==5 or 5>=3 and 2==2) # True
-# # # print(not(6>=2) and 8>3) #False
+# # # # # True or False or False = True
+# # # # # False or False or False = False
 
+# # # # # NOT
 
-# # # # Bitwise operator 
+# # # # # not(True) = False
+# # # # # not(False) = True 
 
-# # # '''
-# # # AND  - &
-# # # OR   - |
-# # # NOT  - ~
-# # # XOR  - ^
-# # # leftShift - <<
-# # # RightShift - >>
-# # # '''
 
-# # # '''
-# # # XOR - ^
+# # # # print(5>5 and 5==5 and 1>=.1000) # False
+# # # # print(5==5 or 5>=3 and 2==2) # True
+# # # # print(not(6>=2) and 8>3) #False
 
 
-# # # T   T    - F
-# # # T   F    - T
-# # # F   T    - T
-# # # F   F    - F
-# # # '''
+# # # # # Bitwise operator 
 
+# # # # '''
+# # # # AND  - &
+# # # # OR   - |
+# # # # NOT  - ~
+# # # # XOR  - ^
+# # # # leftShift - <<
+# # # # RightShift - >>
+# # # # '''
 
-# # # a = 5
+# # # # '''
+# # # # XOR - ^
 
-# # # b = 7
 
+# # # # T   T    - F
+# # # # T   F    - T
+# # # # F   T    - T
+# # # # F   F    - F
+# # # # '''
 
-# # # print(a & b)
-# # # print(a | b)
-# # # print(~b)
-# # # print(a ^ b)
 
+# # # # a = 5
 
-# # # print(12 << 1) 
-# # # print(12 >> 1)
+# # # # b = 7
 
 
+# # # # print(a & b)
+# # # # print(a | b)
+# # # # print(~b)
+# # # # print(a ^ b)
 
-# # # # String - "Adsf"
 
-# # # # string Replication 
+# # # # print(12 << 1) 
+# # # # print(12 >> 1)
 
 
-# # # a = "hello"
 
-# # # print(a * 5)
+# # # # # String - "Adsf"
 
-# # # # string concatination  +
+# # # # # string Replication 
 
-# # # str1 = "iron"
-# # # str2 = "man"
-# # # str3 = " "
 
-# # # print(str1 +str3 + str2)
+# # # # a = "hello"
 
+# # # # print(a * 5)
 
-# # # # user Input Console    (input())
+# # # # # string concatination  +
 
-# # # # name = input("enter your name : - ")
+# # # # str1 = "iron"
+# # # # str2 = "man"
+# # # # str3 = " "
 
-# # # # print("userName :- ",type(name))
+# # # # print(str1 +str3 + str2)
 
 
-# # # # age = input("enter your age :- ")
-# # # # print("userAge :- ",type(age))
+# # # # # user Input Console    (input())
 
+# # # # # name = input("enter your name : - ")
 
-# # # # TypeCasting 
+# # # # # print("userName :- ",type(name))
 
 
-# # # # num2 = int(input("enter your mark Maths :- "))
-# # # # num3 = int(input("enter your mark Science :- "))
+# # # # # age = input("enter your age :- ")
+# # # # # print("userAge :- ",type(age))
 
-# # # # print((num2+num2)/2)
 
+# # # # # TypeCasting 
 
-# # # # a = int(input("enter first value :- ")) #3
-# # # # b = int(input("second first value :- ")) #2
 
-# # # # print(3*a*2+b - 2) #error #18
+# # # # # num2 = int(input("enter your mark Maths :- "))
+# # # # # num3 = int(input("enter your mark Science :- "))
 
+# # # # # print((num2+num2)/2)
 
-# # # #unit digit
 
+# # # # # a = int(input("enter first value :- ")) #3
+# # # # # b = int(input("second first value :- ")) #2
 
-# # # # num = input() #10000 , 0 - 1, 1 - 0 , 2 - 0 , 3 - 0 ,4 - 0
-# # # # print(num[len(num)-1]) # num[len(num)-2]
+# # # # # print(3*a*2+b - 2) #error #18
 
-# # # # print(1234//10) --> 123
 
+# # # # #unit digit
 
-# # # # num1 = int(input())
 
-# # # # num1 //= 10 #num1 = num1 // 10 = 1234 // 10 -- > 123
+# # # # # num = input() #10000 , 0 - 1, 1 - 0 , 2 - 0 , 3 - 0 ,4 - 0
+# # # # # print(num[len(num)-1]) # num[len(num)-2]
 
-# # # # print(num1 % 10) #123 % 10 --> 3
+# # # # # print(1234//10) --> 123
 
 
-# # # # flow control Statement
+# # # # # num1 = int(input())
 
-# # # # # 1. conditional statement
+# # # # # num1 //= 10 #num1 = num1 // 10 = 1234 // 10 -- > 123
 
-# # # # # 1. if statement
+# # # # # print(num1 % 10) #123 % 10 --> 3
 
-# # # # # if condition = true --> next line , false --> if inside not allow
 
-# # # # # example 
+# # # # # flow control Statement
 
-# # # # if (5>=5) :
-# # # #     print("now i think condition true")
+# # # # # # 1. conditional statement
 
+# # # # # # 1. if statement
 
-# # # # # 2.if else statement
-
-# # # # # if (5>5) :
-# # # # #     print("condition true")
-# # # # # else :
-# # # # #     print("condition false")
-
-
-# # # # # # 3. Elif Statement
-
-# # # # # time = int(input("enter the time Now :- 24hrs"))
-
-# # # # # if (time >= 1 and time <= 6) : 
-# # # # #     print("good morning")
-# # # # # elif (time >= 7 and time <=12) :
-# # # # #     print("morning")
-# # # # # elif (time >= 13 and time <= 17) : 
-# # # # #     print("Good Afternoon")
-# # # # # elif (time >= 18 and time <= 20) :
-# # # # #     print("Good Evening")
-# # # # # else :
-# # # # #     print("Good night")
-
-
-# # # # # #4. Nested If Statement 
-
-
-# # # # # # uniform entrance selection application
-# # # # # name = input("enter your name")
-# # # # # age = int(input("enter your age"))
-# # # # # height = int(input("enter you height using cm"))
-# # # # # weight = int(input("enter your weight using kg"))
-
-# # # # # if (age >= 18) :
-# # # # #     if (height >= 160) : 
-# # # # #         if (weight >= 60) :
-# # # # #             print(name ," congradulation your selected 😊😊😊")
-# # # # #         else : 
-# # # # #             print(name, " your weight is not eligible")
-
-# # # # #     else : 
-# # # # #         print(name, "  your height is not eligible")
-# # # # # else : 
-# # # # #     print(name, " your age is not eligible")
-
-
-# # # # # 5. match statement
-
-
-# # # # # match variable :
-# # # # # #     case value : statement
-
+# # # # # # if condition = true --> next line , false --> if inside not allow
 
 # # # # # # example 
 
+# # # # # if (5>=5) :
+# # # # #     print("now i think condition true")
 
-# # # # # day = int(input("enter the today number :- "))
+
+# # # # # # 2.if else statement
+
+# # # # # # if (5>5) :
+# # # # # #     print("condition true")
+# # # # # # else :
+# # # # # #     print("condition false")
 
 
-# # # # # match day :
-# # # # #     case 1 :
-# # # # #         print("sunday")
-# # # # #     case 2 :
-# # # # #         print("monday")
-# # # # #     case 3 :
-# # # # #         print("tuesday")
-# # # # #     case 4 :
-# # # # #         print("wednesday")
-# # # # #     case 5 :
-# # # # #         print("thursay")
-# # # # #     case 6 :
-# # # # #         print("friday")
-# # # # #     case 7 :
-# # # # #         print("saturday")
+# # # # # # # 3. Elif Statement
+
+# # # # # # time = int(input("enter the time Now :- 24hrs"))
+
+# # # # # # if (time >= 1 and time <= 6) : 
+# # # # # #     print("good morning")
+# # # # # # elif (time >= 7 and time <=12) :
+# # # # # #     print("morning")
+# # # # # # elif (time >= 13 and time <= 17) : 
+# # # # # #     print("Good Afternoon")
+# # # # # # elif (time >= 18 and time <= 20) :
+# # # # # #     print("Good Evening")
+# # # # # # else :
+# # # # # #     print("Good night")
+
+
+# # # # # # #4. Nested If Statement 
+
+
+# # # # # # # uniform entrance selection application
+# # # # # # name = input("enter your name")
+# # # # # # age = int(input("enter your age"))
+# # # # # # height = int(input("enter you height using cm"))
+# # # # # # weight = int(input("enter your weight using kg"))
+
+# # # # # # if (age >= 18) :
+# # # # # #     if (height >= 160) : 
+# # # # # #         if (weight >= 60) :
+# # # # # #             print(name ," congradulation your selected 😊😊😊")
+# # # # # #         else : 
+# # # # # #             print(name, " your weight is not eligible")
+
+# # # # # #     else : 
+# # # # # #         print(name, "  your height is not eligible")
+# # # # # # else : 
+# # # # # #     print(name, " your age is not eligible")
+
+
+# # # # # # 5. match statement
+
+
+# # # # # # match variable :
+# # # # # # #     case value : statement
+
+
+# # # # # # # example 
+
+
+# # # # # # day = int(input("enter the today number :- "))
+
+
+# # # # # # match day :
+# # # # # #     case 1 :
+# # # # # #         print("sunday")
+# # # # # #     case 2 :
+# # # # # #         print("monday")
+# # # # # #     case 3 :
+# # # # # #         print("tuesday")
+# # # # # #     case 4 :
+# # # # # #         print("wednesday")
+# # # # # #     case 5 :
+# # # # # #         print("thursay")
+# # # # # #     case 6 :
+# # # # # #         print("friday")
+# # # # # #     case 7 :
+# # # # # #         print("saturday")
     
 
 
-# # # # # looping Statement 
-# # # # print("normal statement")
-# # # # print(1)
-# # # # print(2)
-# # # # print(3)
-# # # # print(4)
-# # # # print(5)
+# # # # # # looping Statement 
+# # # # # print("normal statement")
+# # # # # print(1)
+# # # # # print(2)
+# # # # # print(3)
+# # # # # print(4)
+# # # # # print(5)
 
 
-# # # # print("looping statement")
-# # # # # for loop
+# # # # # print("looping statement")
+# # # # # # for loop
 
-# # # # # for i in range(1,6) :
-# # # # #     print(i)
-
-
-# # # # # list1 = [1,3,5,7,9]
-
-# # # # # for i in list1 :
-# # # # #     print(i)
+# # # # # # for i in range(1,6) :
+# # # # # #     print(i)
 
 
-# # # # # nested loop statement
+# # # # # # list1 = [1,3,5,7,9]
 
-# # # # # for i in range(1,4) : 
+# # # # # # for i in list1 :
+# # # # # #     print(i)
+
+
+# # # # # # nested loop statement
+
+# # # # # # for i in range(1,4) : 
     
-# # # # #     for j in range(1,6) :
+# # # # # #     for j in range(1,6) :
         
-# # # # #         print(i ,j , end=" ")
+# # # # # #         print(i ,j , end=" ")
 
 
-# # # # # i j = 1 1 , 1 2 , 1 3 , 1 4  , 15 , 2 1 , 2 2, 2 3 , 2 4 , 2 5 , 3 1 , 3 2 , 3 3 , 3 4 , 3 5 
+# # # # # # i j = 1 1 , 1 2 , 1 3 , 1 4  , 15 , 2 1 , 2 2, 2 3 , 2 4 , 2 5 , 3 1 , 3 2 , 3 3 , 3 4 , 3 5 
 
 
 
 
-# # # # # while loop 
+# # # # # # while loop 
 
-# # # # # num = 1     intialiazation
+# # # # # # num = 1     intialiazation
 
-# # # # # while num<=100 : while condition
+# # # # # # while num<=100 : while condition
     
-# # # #    #  print(num)  statement
+# # # # #    #  print(num)  statement
 
-# # # #    #  num = num + 1 iteration
+# # # # #    #  num = num + 1 iteration
 
 
 
-# # # # # letter = "" 
+# # # # # # letter = "" 
 
-# # # # # while not letter.isalpha() :
+# # # # # # while not letter.isalpha() :
     
-# # # # #     letter = input("enter an alphabet")
+# # # # # #     letter = input("enter an alphabet")
 
-# # # # # print("you have eneter " + letter)
-
-
-
-# # # # # break 
-# # # # #  1,6
-# # # # # lst = [] 
-
-# # # # # while True :
-# # # # #    input1 = input("enter value :- ")
-
-# # # # #    if input1 == "z" :
-
-# # # # #       break
-
-# # # # #    lst.append(int(input1))
-
-
-# # # # # print(lst)
+# # # # # # print("you have eneter " + letter)
 
 
 
-# # # # Continue
+# # # # # # break 
+# # # # # #  1,6
+# # # # # # lst = [] 
+
+# # # # # # while True :
+# # # # # #    input1 = input("enter value :- ")
+
+# # # # # #    if input1 == "z" :
+
+# # # # # #       break
+
+# # # # # #    lst.append(int(input1))
 
 
-# # # # str = "A,B,C,D,E,F"
+# # # # # # print(lst)
 
-# # # # str1 = ""
 
-# # # # for i in str:
+
+# # # # # Continue
+
+
+# # # # # str = "A,B,C,D,E,F"
+
+# # # # # str1 = ""
+
+# # # # # for i in str:
     
-# # # #    if i == "," : 
-# # # #       continue
+# # # # #    if i == "," : 
+# # # # #       continue
    
-# # # #    str1 = str1 + i 
+# # # # #    str1 = str1 + i 
 
-# # # # print(str1)
+# # # # # print(str1)
 
 
 
 
-# # # #  String function - [start : stop : step]
+# # # # #  String function - [start : stop : step]
 
-# # # name = "firstBatch"
+# # # # name = "firstBatch"
 
-# # # print(name)
-# # # print(name[0])
+# # # # print(name)
+# # # # print(name[0])
 
-# # # print(name[0:5])
-# # # print(name[ : 5])
-# # # print(name[5 : 8])
+# # # # print(name[0:5])
+# # # # print(name[ : 5])
+# # # # print(name[5 : 8])
 
-# # # print(name[0 : ])
+# # # # print(name[0 : ])
 
-# # # print(name[0 : 7 : 3])
+# # # # print(name[0 : 7 : 3])
 
-# # # print(name[-5 : : 2])
+# # # # print(name[-5 : : 2])
 
-# # # print(name[ : : -1])
+# # # # print(name[ : : -1])
 
 
-# # # #  slice - sI, eI+1
+# # # # #  slice - sI, eI+1
 
-# # # name = "helloworld"
+# # # # name = "helloworld"
 
-# # # x = slice(2,5)
+# # # # x = slice(2,5)
 
-# # # print(name[x])
+# # # # print(name[x])
 
 
 
-# # # # list - we can store multiple value - [start : stop : step]
+# # # # # list - we can store multiple value - [start : stop : step]
 
 
-# # # cities = ["trichy","chennai","bangalore","salem"]
+# # # # cities = ["trichy","chennai","bangalore","salem"]
 
-# # # print(cities)
-# # # print(cities[0])
-# # # print(cities[-1])
+# # # # print(cities)
+# # # # print(cities[0])
+# # # # print(cities[-1])
 
-# # # print(cities[0 : 3])
-# # # print(cities[0 : 3 : 2])
-# # # print(cities[ : : -1])
-# # # print(cities[0 : 4 : 3])
+# # # # print(cities[0 : 3])
+# # # # print(cities[0 : 3 : 2])
+# # # # print(cities[ : : -1])
+# # # # print(cities[0 : 4 : 3])
 
 
-# # # # mutable 
+# # # # # mutable 
 
-# # # cities[3] = "karur"
+# # # # cities[3] = "karur"
 
-# # # print(cities)
+# # # # print(cities)
 
 
-# # # # add value - (append())
+# # # # # add value - (append())
 
-# # # cities.append("salem")
-# # # cities.append("coiambatore")
+# # # # cities.append("salem")
+# # # # cities.append("coiambatore")
 
-# # # print(cities)
+# # # # print(cities)
 
-# # # #insert(index , value) - spec place
+# # # # #insert(index , value) - spec place
 
-# # # cities.insert(2, "thanjavur")
+# # # # cities.insert(2, "thanjavur")
 
-# # # print(cities)
+# # # # print(cities)
 
 
 
-# # # # delete - del
+# # # # # delete - del
 
-# # # del cities[3]
+# # # # del cities[3]
 
-# # # print(cities)
+# # # # print(cities)
 
 
-# # # # pop() - delete last of list value
+# # # # # pop() - delete last of list value
 
-# # # re1 = cities.pop()
+# # # # re1 = cities.pop()
 
-# # # print(re1)
+# # # # print(re1)
 
 
-# # # returnVal = cities.pop(1)
+# # # # returnVal = cities.pop(1)
 
-# # # print(returnVal)
-# # # print(cities)
+# # # # print(returnVal)
+# # # # print(cities)
 
 
-# # # #remove("value")
+# # # # #remove("value")
 
-# # # cities.remove("salem")
+# # # # cities.remove("salem")
 
-# # # print(cities)
+# # # # print(cities)
 
-# # # #clear()
+# # # # #clear()
 
-# # # cities.clear()
+# # # # cities.clear()
 
-# # # print(cities)
+# # # # print(cities)
 
 
-# # # cities.append("chennai")
-# # # cities.append("madurai")
-# # # cities.append("coiambatore")
+# # # # cities.append("chennai")
+# # # # cities.append("madurai")
+# # # # cities.append("coiambatore")
 
-# # # print(cities)
+# # # # print(cities)
 
 
-# # # # sort 
+# # # # # sort 
 
-# # # cities.sort()
+# # # # cities.sort()
 
-# # # print(cities)
+# # # # print(cities)
 
-# # # # reverse 
+# # # # # reverse 
 
-# # # cities.reverse()
+# # # # cities.reverse()
 
-# # # print(cities)
+# # # # print(cities)
 
-# # # # length
+# # # # # length
 
-# # # print(len(cities))
+# # # # print(len(cities))
 
 
-# # # Tuples - () - immutable
+# # # # Tuples - () - immutable
 
 
-# # tup1 = (1,2,3)
+# # # tup1 = (1,2,3)
 
-# # print(type(tup1))
+# # # print(type(tup1))
 
-# # # tup1[1] = 5
+# # # # tup1[1] = 5
 
-# # print(tup1[2])
+# # # print(tup1[2])
 
 
-# # tup = (1,2,2,2,3,5,7)
+# # # tup = (1,2,2,2,3,5,7)
 
-# # print(tup.count(2))
+# # # print(tup.count(2))
 
 
-# # for i in tup :
+# # # for i in tup :
+# # #     print(i)
+
+
+# # # if 1 in tup:
+# # #     print("yes")
+# # # else:
+# # #     print("no")
+
+
+
+
+
+
+
+
+
+# # # # Dictionary 
+
+# # # user = {"name" : "john","age" : 23 , "role" : "developer"}
+
+# # # print(user)
+# # # print(user["role"])
+
+
+# # # # add value
+
+# # # user["city"] = "chennai"
+
+# # # print(user)
+
+# # # #modify
+
+# # # user["age"] = 26
+
+# # # print(user)
+
+# # # #delete
+
+# # # del user["role"]
+
+# # # print(user)
+
+
+# # # # dictionary in loop 
+
+# # # user = {"name" : "john","age" : 23 , "role" : "developer"}
+
+# # # user["salary"] = 100000
+
+# # # for a,b in user.items():  
+# # #     print(a,b)
+
+
+
+# # # # key name
+
+# # # for one in user.keys():
+# # #     print("keys :-",one)
+
+# # # # values
+
+# # # for two in user.values():
+# # #     print("values :-",two)
+
+
+# # # # list of dictionary
+
+# # # user_List=[]
+
+# # # user = {"name" : "john","age" : 23 , "role" : "developer"}
+
+# # # user["name"] = "ronaldo"
+
+# # # user_List.append(user)
+
+# # # print(user_List)
+
+# # # user1 = {"name" : "paul","age":25 , "role" : "python developer"}
+
+# # # user_List.append(user1)
+
+# # # print(user_List)
+
+
+# # # # Dictionary in list
+
+# # # user2 = {"name" : "dhoni","role" : "keeper","strength" : "bat"}
+
+
+# # # user2["played games"] = ["t20","world cup"] 
+
+# # # print(user2)
+
+# # # user2_list = ["t20","world cup"]
+
+# # # print(user2_list[0])
+
+# # # print(user2["played games"][0])
+
+
+
+
+
+# # # # set   - unique element only , not order - {}
+
+# # # color = {"black","red","white","orange","red"}
+
+# # # print(sorted(color))
+
+# # # print(list(color))
+
+# # # list_ran = ["1","2","3"]
+
+# # # print(set(list_ran))
+
+
+
+
+
+
+
+# # # # string formatting
+
+# # # name = "arun"
+
+# # # fruit1 = "apple"
+
+# # # fruit2 = "banana"
+
+# # # print(name + " like " + fruit1 + " and " + fruit2)
+
+
+# # # # formatting
+
+# # # text = '{0} like {2} and {1}'
+
+# # # print(text.format(name,fruit1,fruit2))
+
+
+
+# # # # padding 
+
+
+# # # print("***{msg:<10}***".format(msg="welcome"))
+# # # print("***{msg:>10}***".format(msg="welcome"))
+# # # print("***{msg:^11}***".format(msg="welcome"))
+
+
+
+# # # # formatting number
+
+# # # getVal = 3.2345
+
+# # # print("got the value : {:.1f}".format(getVal))
+
+# # # money = 10000000
+
+# # # print("have money {:,}".format(money))
+
+# # # num = 10 
+
+# # # print("101 binary value :- {:b}".format(num))
+# # # print("101 octal value :- {:o}".format(num))
+# # # print("101 hexa value :- {:x}".format(num))
+# # # print("101 scientific value :- {:e}".format(num))
+
+
+
+
+# # # """
+
+
+# # # FUNCTION 
+
+# # # 1. reusable
+# # # 2. maintain , easy readable
+# # # 3. making program
+# # # 4. easy debugging and testing
+# # # 5. easy to manipulate
+# # # 6. perform functionality
+# # # 7. we can give block (multiple code) inside
+# # # 8. efficicency
+
+# # # """
+
+
+# # # # def greet(parameter) :
+# # # #     print("hello")
+# # # #     print(parameter)
+
+# # # # greet("hi")
+
+
+# # # # def multiple_code(name) :
+
+# # # #     print(name)
+
+# # # #     for i in range(0,10):
+# # # #         print(i)
+
+# # # #     if(name) : 
+# # # #         print("condition true")
+
+# # # #     num1 = 10
+
+# # # #     print("number is {}".format(num1))
+
+# # # #     num2 = {"hello" : 60}
+
+# # # #     print(num2)
+
+# # # # multiple_code("ram")
+
+
+
+# # # # reusable
+
+
+# # # def form(name,department,cgpa):
+
+# # #     print("name : ", name)
+# # #     print("department : ",department)
+# # #     print("cgpa : ",cgpa)
+
+
+# # # form("praveen","ece",9)
+# # # form("kamal","Cse",8.56)
+
+
+# # # # program :  natural number find
+
+# # # def sum(num):
+
+# # #     print(num*(num+1)/2)
+
+# # # sum(20)
+
+
+
+# # # # return
+
+
+# # # def first_Val(value1,value2) :
+
+# # #     return value1+value2
+
+# # # print(first_Val(10,20))  
+
+# # # second_val = first_Val(20,20)
+
+# # # print(second_val)
+
+
+
+# # # def random(one) :
+
+# # #     print(one + second_val)
+
+# # # random(10)
+
+
+
+# # # def two() :
+# # #     print("two")
+
+# # # two()
+
+
+# # # def form1(name,department,disability="no"):
+
+# # #     print("name : ", name)
+# # #     print("department : ", department)
+# # #     print("disability : ",disability)
+
+# # # form1("john","EEE","yes")
+# # # form1("paul","IT")
+
+
+
+# # # Variable scope
+
+# # # 1 . local scope 
+
+# # # 2 . global scope
+
+
+# # def random(name):
+
+# #     print(name)
+   
+
+# # random("john")
+
+# # def random1(name):
+
+# #     print(name)
+
+# # random1("paul")
+
+# # def msg(name):
+# #     msg1 = "hello"
+# #     print(msg,msg1)
+# #     print(name)
+# # msg("hi")
+
+
+# # num = 10
+
+# # def num1():
+# #     global num
+# #     num = 20
+# #     print(num)
+# # num1()
+
+# # print(num)
+
+
+
+# # # variable length parameter
+
+# # # sum of number
+
+# # def total(num1,num2,num3,num4):
+# #     return num1+num2+num3
+# # print(total(4,5,6,8))
+
+
+# # # how to mange dynamically
+
+# # def total1(*a):
+# #     sum = 0 
+
+# #     for i in a:
+# #         sum = sum + i
+
+# #     return sum
+
+# # print(total1(2,3,4,5,7,8,9,5,6))
+
+
+
+# # # key value manage dynamically
+
+
+# # def manage_Dict(**a):
+# #     for key,val in a.items():
+# #         print(key,val,sep=":")
+
+# # manage_Dict(name="john",age=30,role1="developer")
+
+
+# # # * --> tuple
+# # # ** ---> dictionary 
+
+
+# # # passing list
+
+# # def print_Names(GroupOfName):
+# #     for i in GroupOfName:
+
+# #         i = i.title()
+
+# #         print(i)
+
+
+# # name1 = ["arun","praveen","livin"]
+# # print_Names(name1)
+
+
+
+# # # Returning Dictionary 
+
+# # def getUser_info():
+
+# #     user = {"name":"vishnu","age":23}
+
+# #     return user
+
+# # userDetials = getUser_info()
+# # print(userDetials)
+
+
+# # # Recursion
+
+# # # factorial = 4! = 4*3*2*1 = 24
+
+# # def factorial(num):
+# #     if(num == 0):
+# #         return 1
+# #     return num*factorial(num-1)
+    
+
+# # print(factorial(4))
+
+
+
+
+# # # generator function
+
+# # def reduceMemory(num):
+# #     value = []
+
+# #     for i in range(1,num+1):
+# #         value.append(i*i)
+# #     return value
+
+    
+
+# # finalList = reduceMemory(10)
+
+# # print(finalList)
+
+
+
+# # # gen
+
+
+# # def reduce1(num):
+# #     for i in range(1,num+1):
+# #         yield i*i
+
+# # newVal = reduce1(10)
+
+# # print(newVal)
+
+# # for i in newVal:
 # #     print(i)
 
 
-# # if 1 in tup:
-# #     print("yes")
-# # else:
-# #     print("no")
 
 
+# # # modules
 
+# # # Exception Handling
 
 
 
 
+# # try :
+# #     numerical = int(input("enter numerical number:-"))
+# #     denominator = int(input("enter denominator number:-"))
 
+# #     result = numerical / denominator
 
-# # # Dictionary 
+# #     print(result)
 
-# # user = {"name" : "john","age" : 23 , "role" : "developer"}
+# # except ZeroDivisionError :
+# #     print("you cannot divide the zero")
 
-# # print(user)
-# # print(user["role"])
+# # except ValueError:
+# #     print("give only integer")
 
+# # except Exception:
 
-# # # add value
+# #     print("carefully give numerical number only.")
 
-# # user["city"] = "chennai"
+# # finally :
 
-# # print(user)
+# #     print("program done")
 
-# # #modify
 
-# # user["age"] = 26
+# # print("start to next concept")
 
-# # print(user)
 
-# # #delete
 
-# # del user["role"]
-
-# # print(user)
-
-
-# # # dictionary in loop 
-
-# # user = {"name" : "john","age" : 23 , "role" : "developer"}
-
-# # user["salary"] = 100000
-
-# # for a,b in user.items():  
-# #     print(a,b)
-
-
-
-# # # key name
-
-# # for one in user.keys():
-# #     print("keys :-",one)
-
-# # # values
-
-# # for two in user.values():
-# #     print("values :-",two)
-
-
-# # # list of dictionary
-
-# # user_List=[]
-
-# # user = {"name" : "john","age" : 23 , "role" : "developer"}
-
-# # user["name"] = "ronaldo"
-
-# # user_List.append(user)
-
-# # print(user_List)
-
-# # user1 = {"name" : "paul","age":25 , "role" : "python developer"}
-
-# # user_List.append(user1)
-
-# # print(user_List)
-
-
-# # # Dictionary in list
-
-# # user2 = {"name" : "dhoni","role" : "keeper","strength" : "bat"}
-
-
-# # user2["played games"] = ["t20","world cup"] 
-
-# # print(user2)
-
-# # user2_list = ["t20","world cup"]
-
-# # print(user2_list[0])
-
-# # print(user2["played games"][0])
-
-
-
-
-
-# # # set   - unique element only , not order - {}
-
-# # color = {"black","red","white","orange","red"}
-
-# # print(sorted(color))
-
-# # print(list(color))
-
-# # list_ran = ["1","2","3"]
-
-# # print(set(list_ran))
-
-
-
-
-
-
-
-# # # string formatting
-
-# # name = "arun"
-
-# # fruit1 = "apple"
-
-# # fruit2 = "banana"
-
-# # print(name + " like " + fruit1 + " and " + fruit2)
-
-
-# # # formatting
-
-# # text = '{0} like {2} and {1}'
-
-# # print(text.format(name,fruit1,fruit2))
-
-
-
-# # # padding 
-
-
-# # print("***{msg:<10}***".format(msg="welcome"))
-# # print("***{msg:>10}***".format(msg="welcome"))
-# # print("***{msg:^11}***".format(msg="welcome"))
-
-
-
-# # # formatting number
-
-# # getVal = 3.2345
-
-# # print("got the value : {:.1f}".format(getVal))
-
-# # money = 10000000
-
-# # print("have money {:,}".format(money))
-
-# # num = 10 
-
-# # print("101 binary value :- {:b}".format(num))
-# # print("101 octal value :- {:o}".format(num))
-# # print("101 hexa value :- {:x}".format(num))
-# # print("101 scientific value :- {:e}".format(num))
-
-
-
-
-# # """
-
-
-# # FUNCTION 
-
-# # 1. reusable
-# # 2. maintain , easy readable
-# # 3. making program
-# # 4. easy debugging and testing
-# # 5. easy to manipulate
-# # 6. perform functionality
-# # 7. we can give block (multiple code) inside
-# # 8. efficicency
-
-# # """
-
-
-# # # def greet(parameter) :
-# # #     print("hello")
-# # #     print(parameter)
-
-# # # greet("hi")
-
-
-# # # def multiple_code(name) :
-
-# # #     print(name)
-
-# # #     for i in range(0,10):
-# # #         print(i)
-
-# # #     if(name) : 
-# # #         print("condition true")
-
-# # #     num1 = 10
-
-# # #     print("number is {}".format(num1))
-
-# # #     num2 = {"hello" : 60}
-
-# # #     print(num2)
-
-# # # multiple_code("ram")
-
-
-
-# # # reusable
-
-
-# # def form(name,department,cgpa):
-
-# #     print("name : ", name)
-# #     print("department : ",department)
-# #     print("cgpa : ",cgpa)
-
-
-# # form("praveen","ece",9)
-# # form("kamal","Cse",8.56)
-
-
-# # # program :  natural number find
-
-# # def sum(num):
-
-# #     print(num*(num+1)/2)
-
-# # sum(20)
-
-
-
-# # # return
-
-
-# # def first_Val(value1,value2) :
-
-# #     return value1+value2
-
-# # print(first_Val(10,20))  
-
-# # second_val = first_Val(20,20)
-
-# # print(second_val)
-
-
-
-# # def random(one) :
-
-# #     print(one + second_val)
-
-# # random(10)
-
-
-
-# # def two() :
-# #     print("two")
-
-# # two()
-
-
-# # def form1(name,department,disability="no"):
-
-# #     print("name : ", name)
-# #     print("department : ", department)
-# #     print("disability : ",disability)
-
-# # form1("john","EEE","yes")
-# # form1("paul","IT")
-
-
-
-# # Variable scope
-
-# # 1 . local scope 
-
-# # 2 . global scope
-
-
-# def random(name):
-
-#     print(name)
-   
-
-# random("john")
-
-# def random1(name):
-
-#     print(name)
-
-# random1("paul")
-
-# def msg(name):
-#     msg1 = "hello"
-#     print(msg,msg1)
-#     print(name)
-# msg("hi")
-
-
-# num = 10
-
-# def num1():
-#     global num
-#     num = 20
-#     print(num)
-# num1()
-
-# print(num)
-
-
-
-# # variable length parameter
-
-# # sum of number
-
-# def total(num1,num2,num3,num4):
-#     return num1+num2+num3
-# print(total(4,5,6,8))
-
-
-# # how to mange dynamically
-
-# def total1(*a):
-#     sum = 0 
-
-#     for i in a:
-#         sum = sum + i
-
-#     return sum
-
-# print(total1(2,3,4,5,7,8,9,5,6))
-
-
-
-# # key value manage dynamically
-
-
-# def manage_Dict(**a):
-#     for key,val in a.items():
-#         print(key,val,sep=":")
-
-# manage_Dict(name="john",age=30,role1="developer")
-
-
-# # * --> tuple
-# # ** ---> dictionary 
-
-
-# # passing list
-
-# def print_Names(GroupOfName):
-#     for i in GroupOfName:
-
-#         i = i.title()
-
-#         print(i)
-
-
-# name1 = ["arun","praveen","livin"]
-# print_Names(name1)
-
-
-
-# # Returning Dictionary 
-
-# def getUser_info():
-
-#     user = {"name":"vishnu","age":23}
-
-#     return user
-
-# userDetials = getUser_info()
-# print(userDetials)
-
-
-# # Recursion
-
-# # factorial = 4! = 4*3*2*1 = 24
-
-# def factorial(num):
-#     if(num == 0):
-#         return 1
-#     return num*factorial(num-1)
-    
-
-# print(factorial(4))
-
-
-
-
-# # generator function
-
-# def reduceMemory(num):
-#     value = []
-
-#     for i in range(1,num+1):
-#         value.append(i*i)
-#     return value
-
-    
-
-# finalList = reduceMemory(10)
-
-# print(finalList)
-
-
-
-# # gen
-
-
-# def reduce1(num):
-#     for i in range(1,num+1):
-#         yield i*i
-
-# newVal = reduce1(10)
-
-# print(newVal)
-
-# for i in newVal:
-#     print(i)
-
-
-
-
-# # modules
-
-# # Exception Handling
-
-
-
-
-# try :
-#     numerical = int(input("enter numerical number:-"))
-#     denominator = int(input("enter denominator number:-"))
-
-#     result = numerical / denominator
-
-#     print(result)
-
-# except ZeroDivisionError :
-#     print("you cannot divide the zero")
-
-# except ValueError:
-#     print("give only integer")
-
-# except Exception:
-
-#     print("carefully give numerical number only.")
-
-# finally :
-
-#     print("program done")
-
-
-# print("start to next concept")
-
-
-
-# # File handle method
+# # # File handle method
 
 with open("hello.txt") as f :
     print(f.read())
-    print(f.closed)
     
+print(f.closed)
+
+
+# oop - objected oriented programming
+
+# code reusable
+# scalable
+# easy maintain
+
+# Encapsulation
+
+
+
+
     
 
     
