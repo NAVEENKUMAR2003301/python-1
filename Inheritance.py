@@ -1,5 +1,12 @@
 class User :                              
 
+    username = None
+    pwd      = None
+
+    def __init__(self,username,pwd):
+
+       self.username = username
+       self.pwd      = pwd
 # parent class
 
     def register(self) :
@@ -10,9 +17,14 @@ class User :
 
 
 class Student(User) :
+
+    def __init__(self, username, pwd,course,fee):
+      super().__init__()
+      self.course = course       
+      self.fee = fee       
 # child class 
     def student_greet(self) :
-      print("hi student")
+      print("hi student" +" "+ self.course)
 
 
 class Faculty(User) :

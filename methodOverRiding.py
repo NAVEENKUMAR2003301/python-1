@@ -1,28 +1,13 @@
-class User :
+# Usage
 
-    def register(self) :
-        print("regitered")
-        return self
+from oopDemo import User, Student , Faculty
 
-    def login(self) :
-        print("logined")
-        return self
-        
-
-    def greet(self) :
-        print("enjoy everyone")
-
-# class Student(User) :
-#     def greet(self) :
-#         print("hi student")
-
-# class Faculty(User) :
-#     # def greet(self) :
-#     #     print("hi teacher")
-#     pass
-
-# class TempFaculty(Faculty) :
-#     # def greet(self) :
-#     #     print("hi hello")
-#     pass
-    
+s = Student("john", "123")
+f = Faculty("admin", "999")
+ 
+s.login().greet().register()
+print() 
+f.login().greet().register()
+print()
+ 
+print("Total Users:", User.users_count)

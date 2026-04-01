@@ -1,12 +1,42 @@
-from user import User
-
-user1 = User("john",1234786)
-user2 = User("kaviya",456321)
-user3 = User("livin",768543)
-
-
-user1.register()
-user2.login()
-
-
-print(User.users)
+#Combined Real-Time
+ 
+class User:
+    users_count = 0   # class variable
+ 
+    def __init__(self, name, pwd):
+        self.name = name
+        self.pwd = pwd
+        User.users_count += 1
+ 
+    def get_name(self):
+        return self.name
+ 
+    def register(self):
+        print(f"{self.name} registered")
+        return self
+ 
+    def login(self):
+        print(f"{self.name} logged in")
+        return self
+ 
+    def greet(self):
+        print("Welcome User")
+        return self
+ 
+ 
+class Student(User):
+    def __init__(self, name, pwd):
+        super().__init__(name, pwd)
+ 
+    def greet(self):   # overriding
+        print("Welcome Student")
+        return self
+ 
+ 
+class Faculty(User):
+    def _init_(self, name, pwd):
+        super()._init_(name, pwd)
+    def greet(self):   # overriding
+        print("Welcome Faculty")
+        return self
+ 

@@ -1156,20 +1156,166 @@ print(f.closed)
 # easy maintain
 
 # Encapsulation
+# Inheretence
+# method over riding
+# method chain call
+# super function
+# abstract
+
+
+# higher order function 
+
+def happy() :
+    print("smile")
+
+hello = happy
+
+hello()
+
+def sad() :
+    print("sarrow")
+
+def feeling(func):
+    func()
+
+feeling(happy)
+feeling(sad)
+
+
+def function1(func1) : 
+    func1()
+
+def function2() :
+    print("higher order function")
+    
+
+function1(function2)
+
+
+# Lambda - Annoymous function   [lambda para1,para2...para n : expression]
+
+def add_item(num):
+    return num + 10
+
+print(add_item(20))
 
 
 
+add_ten = lambda x : x + 10
+
+print(add_ten(10))
+
+
+product = lambda a,b,c : a+b+c
+
+print(product(10,20,30))
+
+
+check_Boolean = lambda h : h > 175
+
+print(check_Boolean(30))
+
+
+
+
+
+
+
+# Map (function,iterable)
+
+
+item1 = [(3456,"shoe",750),(2345,"phone",100000),(2341,"shirt",3000),(4567,"phant",5000)]
+
+
+
+useMap =list(map( lambda item1 : (item1[0],item1[1],item1[2]/2),item1))
+
+print(useMap)
+
+
+
+
+
+val = [2,3,4,5]
+
+val_sq = list(map(lambda x : x**2,val))
+
+print(val_sq)
+
+
+
+# filter(function , iterable)
+
+item1 = [(3456,"shoe",750),(2345,"phone",100000),(2341,"shirt",3000),(4567,"phant",5000)]
+
+val_p = list(filter(lambda item : item[1][-1] == "t" , item1))
+
+print(val_p)
+
+
+# reduce 
+
+import functools
+
+item1 = [(3456,"shoe",750),(2345,"phone",100000),(2341,"shirt",3000),(4567,"phant",5000)]
+
+val_all_Price = functools.reduce(lambda a,b : a + b[2] , item1, 0 )
+
+
+# a = accumlator
+# b = parameter
+# a+b[2] = expression
+# iterable = item1 
+# 0 = intial value
+
+# 0 + 750 = 750   = intial value = 750 
+
+# 750 + 100000 = 100750 = intial Value = 100750
+
+# 100750 + 3000 = 103750 = intial value = 103750
+
+# 103750 + 5000 = 108750 = intial value = 108750
+
+
+
+
+
+print(val_all_Price)
+
+
+
+val = [1,2,3,4,5]
+
+char = ["p","y","t","h","o","n"]
+
+sum = (functools.reduce(lambda x,y : x+y , char , ))
+
+print(sum)
 
     
 
     
+# Sorting with key 
+
+
+item = [(3456,"shoe",750),(2345,"phone",100000),(2341,"shirt",3000),(4567,"phant",5000)]
+
+item.sort(key  = lambda item : item[0],reverse=True)
+
+print(item)
 
 
 
 
 
 
+item1 = [(3456,"a",750000),(2345,"b",100000),(2341,"c",300000),(4567,"d",500000)]
 
+# employee_Above_salary = list()
+
+print(lambda item : item[0],item1)
+
+# print(employee_Above_salary)
 
 
 

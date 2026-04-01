@@ -1,29 +1,34 @@
 from Inheritance import User,Student,Faculty,TempFaculty
 
-student1 = Student()
 
-student1.student_greet()
+s1 = Student("ravi",3455,"cs","75000 thousand")
 
+s1.student_greet()
 
-faculty1 = Faculty()
+# student1 = Student()
 
-faculty1.faculty_greet()
-
-student1.register()
-faculty1.login()
+# student1.student_greet()
 
 
-user1 = User()
-# user1.student_greet() - its not possible
+# faculty1 = Faculty()
 
-#  child to parent data we can access
-#  parent to child we cannot access
+# faculty1.faculty_greet()
 
-# multilevel inheritance
+# student1.register()
+# faculty1.login()
 
-TempFac1 = TempFaculty()
 
-TempFac1.tempFaculty_greet()
-TempFac1. faculty_greet()
-TempFac1.register()
+# user1 = User()
+# # user1.student_greet() - its not possible
+
+# #  child to parent data we can access
+# #  parent to child we cannot access
+
+# # multilevel inheritance
+
+# TempFac1 = TempFaculty()
+
+# TempFac1.tempFaculty_greet()
+# TempFac1. faculty_greet()
+# TempFac1.register()
 
