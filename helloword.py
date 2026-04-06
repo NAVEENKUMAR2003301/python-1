@@ -975,352 +975,456 @@
 
 # # random1("paul")
 
-# # def msg(name):
-# #     msg1 = "hello"
-# #     print(msg,msg1)
-# #     print(name)
-# # msg("hi")
+# # # def msg(name):
+# # #     msg1 = "hello"
+# # #     print(msg,msg1)
+# # #     print(name)
+# # # msg("hi")
 
 
-# # num = 10
+# # # num = 10
 
-# # def num1():
-# #     global num
-# #     num = 20
-# #     print(num)
-# # num1()
+# # # def num1():
+# # #     global num
+# # #     num = 20
+# # #     print(num)
+# # # num1()
 
-# # print(num)
-
-
-
-# # # variable length parameter
-
-# # # sum of number
-
-# # def total(num1,num2,num3,num4):
-# #     return num1+num2+num3
-# # print(total(4,5,6,8))
-
-
-# # # how to mange dynamically
-
-# # def total1(*a):
-# #     sum = 0 
-
-# #     for i in a:
-# #         sum = sum + i
-
-# #     return sum
-
-# # print(total1(2,3,4,5,7,8,9,5,6))
+# # # print(num)
 
 
 
-# # # key value manage dynamically
+# # # # variable length parameter
+
+# # # # sum of number
+
+# # # def total(num1,num2,num3,num4):
+# # #     return num1+num2+num3
+# # # print(total(4,5,6,8))
 
 
-# # def manage_Dict(**a):
-# #     for key,val in a.items():
-# #         print(key,val,sep=":")
+# # # # how to mange dynamically
 
-# # manage_Dict(name="john",age=30,role1="developer")
+# # # def total1(*a):
+# # #     sum = 0 
 
+# # #     for i in a:
+# # #         sum = sum + i
 
-# # # * --> tuple
-# # # ** ---> dictionary 
+# # #     return sum
 
-
-# # # passing list
-
-# # def print_Names(GroupOfName):
-# #     for i in GroupOfName:
-
-# #         i = i.title()
-
-# #         print(i)
-
-
-# # name1 = ["arun","praveen","livin"]
-# # print_Names(name1)
+# # # print(total1(2,3,4,5,7,8,9,5,6))
 
 
 
-# # # Returning Dictionary 
-
-# # def getUser_info():
-
-# #     user = {"name":"vishnu","age":23}
-
-# #     return user
-
-# # userDetials = getUser_info()
-# # print(userDetials)
+# # # # key value manage dynamically
 
 
-# # # Recursion
+# # # def manage_Dict(**a):
+# # #     for key,val in a.items():
+# # #         print(key,val,sep=":")
 
-# # # factorial = 4! = 4*3*2*1 = 24
+# # # manage_Dict(name="john",age=30,role1="developer")
 
-# # def factorial(num):
-# #     if(num == 0):
-# #         return 1
-# #     return num*factorial(num-1)
+
+# # # # * --> tuple
+# # # # ** ---> dictionary 
+
+
+# # # # passing list
+
+# # # def print_Names(GroupOfName):
+# # #     for i in GroupOfName:
+
+# # #         i = i.title()
+
+# # #         print(i)
+
+
+# # # name1 = ["arun","praveen","livin"]
+# # # print_Names(name1)
+
+
+
+# # # # Returning Dictionary 
+
+# # # def getUser_info():
+
+# # #     user = {"name":"vishnu","age":23}
+
+# # #     return user
+
+# # # userDetials = getUser_info()
+# # # print(userDetials)
+
+
+# # # # Recursion
+
+# # # # factorial = 4! = 4*3*2*1 = 24
+
+# # # def factorial(num):
+# # #     if(num == 0):
+# # #         return 1
+# # #     return num*factorial(num-1)
     
 
-# # print(factorial(4))
+# # # print(factorial(4))
 
 
 
 
-# # # generator function
+# # # # generator function
 
-# # def reduceMemory(num):
-# #     value = []
+# # # def reduceMemory(num):
+# # #     value = []
 
-# #     for i in range(1,num+1):
-# #         value.append(i*i)
-# #     return value
-
-    
-
-# # finalList = reduceMemory(10)
-
-# # print(finalList)
-
-
-
-# # # gen
-
-
-# # def reduce1(num):
-# #     for i in range(1,num+1):
-# #         yield i*i
-
-# # newVal = reduce1(10)
-
-# # print(newVal)
-
-# # for i in newVal:
-# #     print(i)
-
-
-
-
-# # # modules
-
-# # # Exception Handling
-
-
-
-
-# # try :
-# #     numerical = int(input("enter numerical number:-"))
-# #     denominator = int(input("enter denominator number:-"))
-
-# #     result = numerical / denominator
-
-# #     print(result)
-
-# # except ZeroDivisionError :
-# #     print("you cannot divide the zero")
-
-# # except ValueError:
-# #     print("give only integer")
-
-# # except Exception:
-
-# #     print("carefully give numerical number only.")
-
-# # finally :
-
-# #     print("program done")
-
-
-# # print("start to next concept")
-
-
-
-# # # File handle method
-
-with open("hello.txt") as f :
-    print(f.read())
-    
-print(f.closed)
-
-
-# oop - objected oriented programming
-
-# code reusable
-# scalable
-# easy maintain
-
-# Encapsulation
-# Inheretence
-# method over riding
-# method chain call
-# super function
-# abstract
-
-
-# higher order function 
-
-def happy() :
-    print("smile")
-
-hello = happy
-
-hello()
-
-def sad() :
-    print("sarrow")
-
-def feeling(func):
-    func()
-
-feeling(happy)
-feeling(sad)
-
-
-def function1(func1) : 
-    func1()
-
-def function2() :
-    print("higher order function")
-    
-
-function1(function2)
-
-
-# Lambda - Annoymous function   [lambda para1,para2...para n : expression]
-
-def add_item(num):
-    return num + 10
-
-print(add_item(20))
-
-
-
-add_ten = lambda x : x + 10
-
-print(add_ten(10))
-
-
-product = lambda a,b,c : a+b+c
-
-print(product(10,20,30))
-
-
-check_Boolean = lambda h : h > 175
-
-print(check_Boolean(30))
-
-
-
-
-
-
-
-# Map (function,iterable)
-
-
-item1 = [(3456,"shoe",750),(2345,"phone",100000),(2341,"shirt",3000),(4567,"phant",5000)]
-
-
-
-useMap =list(map( lambda item1 : (item1[0],item1[1],item1[2]/2),item1))
-
-print(useMap)
-
-
-
-
-
-val = [2,3,4,5]
-
-val_sq = list(map(lambda x : x**2,val))
-
-print(val_sq)
-
-
-
-# filter(function , iterable)
-
-item1 = [(3456,"shoe",750),(2345,"phone",100000),(2341,"shirt",3000),(4567,"phant",5000)]
-
-val_p = list(filter(lambda item : item[1][-1] == "t" , item1))
-
-print(val_p)
-
-
-# reduce 
-
-import functools
-
-item1 = [(3456,"shoe",750),(2345,"phone",100000),(2341,"shirt",3000),(4567,"phant",5000)]
-
-val_all_Price = functools.reduce(lambda a,b : a + b[2] , item1, 0 )
-
-
-# a = accumlator
-# b = parameter
-# a+b[2] = expression
-# iterable = item1 
-# 0 = intial value
-
-# 0 + 750 = 750   = intial value = 750 
-
-# 750 + 100000 = 100750 = intial Value = 100750
-
-# 100750 + 3000 = 103750 = intial value = 103750
-
-# 103750 + 5000 = 108750 = intial value = 108750
-
-
-
-
-
-print(val_all_Price)
-
-
-
-val = [1,2,3,4,5]
-
-char = ["p","y","t","h","o","n"]
-
-sum = (functools.reduce(lambda x,y : x+y , char , ))
-
-print(sum)
+# # #     for i in range(1,num+1):
+# # #         value.append(i*i)
+# # #     return value
 
     
 
+# # # finalList = reduceMemory(10)
+
+# # # print(finalList)
+
+
+
+# # # # gen
+
+
+# # # def reduce1(num):
+# # #     for i in range(1,num+1):
+# # #         yield i*i
+
+# # # newVal = reduce1(10)
+
+# # # print(newVal)
+
+# # # for i in newVal:
+# # #     print(i)
+
+
+
+
+# # # # modules
+
+# # # # Exception Handling
+
+
+
+
+# # # try :
+# # #     numerical = int(input("enter numerical number:-"))
+# # #     denominator = int(input("enter denominator number:-"))
+
+# # #     result = numerical / denominator
+
+# # #     print(result)
+
+# # # except ZeroDivisionError :
+# # #     print("you cannot divide the zero")
+
+# # # except ValueError:
+# # #     print("give only integer")
+
+# # # except Exception:
+
+# # #     print("carefully give numerical number only.")
+
+# # # finally :
+
+# # #     print("program done")
+
+
+# # # print("start to next concept")
+
+
+
+# # # # File handle method
+
+# with open("hello.txt") as f :
+#     print(f.read())
     
-# Sorting with key 
+# print(f.closed)
 
 
-item = [(3456,"shoe",750),(2345,"phone",100000),(2341,"shirt",3000),(4567,"phant",5000)]
+# # oop - objected oriented programming
 
-item.sort(key  = lambda item : item[0],reverse=True)
+# # code reusable
+# # scalable
+# # easy maintain
 
-print(item)
-
-
-
-
-
-
-item1 = [(3456,"a",750000),(2345,"b",100000),(2341,"c",300000),(4567,"d",500000)]
-
-# employee_Above_salary = list()
-
-print(lambda item : item[0],item1)
-
-# print(employee_Above_salary)
+# # Encapsulation
+# # Inheretence
+# # method over riding
+# # method chain call
+# # super function
+# # abstract
 
 
+# # higher order function 
+
+# def happy() :
+#     print("smile")
+
+# hello = happy
+
+# hello()
+
+# def sad() :
+#     print("sarrow")
+
+# def feeling(func):
+#     func()
+
+# feeling(happy)
+# feeling(sad)
+
+
+# def function1(func1) : 
+#     func1()
+
+# def function2() :
+#     print("higher order function")
+    
+
+# function1(function2)
+
+
+# # Lambda - Annoymous function   [lambda para1,para2...para n : expression]
+
+# def add_item(num):
+#     return num + 10
+
+# print(add_item(20))
+
+
+
+# add_ten = lambda x : x + 10
+
+# print(add_ten(10))
+
+
+# product = lambda a,b,c : a+b+c
+
+# print(product(10,20,30))
+
+
+# check_Boolean = lambda h : h > 175
+
+# print(check_Boolean(30))
 
 
 
 
 
 
+
+# # Map (function,iterable)
+
+
+# item1 = [(3456,"shoe",750),(2345,"phone",100000),(2341,"shirt",3000),(4567,"phant",5000)]
+
+
+
+# useMap =list(map( lambda item1 : (item1[0],item1[1],item1[2]/2),item1))
+
+# print(useMap)
+
+
+
+
+
+# val = [2,3,4,5]
+
+# val_sq = list(map(lambda x : x**2,val))
+
+# print(val_sq)
+
+
+
+# # filter(function , iterable)
+
+# item1 = [(3456,"shoe",750),(2345,"phone",100000),(2341,"shirt",3000),(4567,"phant",5000)]
+
+# val_p = list(filter(lambda item : item[1][-1] == "t" , item1))
+
+# print(val_p)
+
+
+# # reduce 
+
+# import functools
+
+# item1 = [(3456,"shoe",750),(2345,"phone",100000),(2341,"shirt",3000),(4567,"phant",5000)]
+
+# val_all_Price = functools.reduce(lambda a,b : a + b[2] , item1, 0 )
+
+
+# # a = accumlator
+# # b = parameter
+# # a+b[2] = expression
+# # iterable = item1 
+# # 0 = intial value
+
+# # 0 + 750 = 750   = intial value = 750 
+
+# # 750 + 100000 = 100750 = intial Value = 100750
+
+# # 100750 + 3000 = 103750 = intial value = 103750
+
+# # 103750 + 5000 = 108750 = intial value = 108750
+
+
+
+
+
+# print(val_all_Price)
+
+
+
+# val = [1,2,3,4,5]
+
+# char = ["p","y","t","h","o","n"]
+
+# sum = (functools.reduce(lambda x,y : x+y , char , ))
+
+# print(sum)
+
+    
+
+    
+# # Sorting with key 
+
+
+# item = [(3456,"shoe",750),(2345,"phone",100000),(2341,"shirt",3000),(4567,"phant",5000)]
+
+# item.sort(key  = lambda item : item[0],reverse=True)
+
+# print(item)
+
+
+
+
+
+
+# item1 = [(3456,"a",750000),(2345,"b",100000),(2341,"c",300000),(4567,"d",500000)]
+
+# # employee_Above_salary = list()
+
+# print(lambda item : item[0],item1)
+
+# # print(employee_Above_salary)
+
+
+
+# list comprehension
+
+
+#  list of square of first 10 natural number
+
+
+sq_list = list(map(lambda x : x*x , range(1,11)))
+
+print(sq_list)
+
+
+# list = [expre for item in iterable]
+
+sq_list1 = [x*x for x in range(1,11)]
+
+print(sq_list1)
+
+
+
+# filter val -- list = [expre for item in iterable if condition]
+
+temp = [28,30,25,38,22,31]
+
+temp_filter = [i for i in temp if i < 30 ]
+
+print(temp_filter)
+
+
+# else  - list = [expre if - else for item in iterable]
+
+
+temp1 = [28,30,25,38,22,31]
+
+temp1_filtered = [ i if i < 30 else 0 for i in temp1]
+
+print(temp1_filtered)
+
+
+# Dictionary comprehension 
+
+# dictionary = {key : expression for (key,value) in iterable} 
+
+
+cart = {"phont" : 25000.00 , "lamp" : 2560.003,"table":5499.99,"pan" : 20.50, "bag":650.57}
+
+cart_Rounded = {key : round(val) for (key,val) in cart.items()}
+
+print(cart_Rounded)
+
+
+
+# condition 
+# var = {key:expression for (key,value) in iterable if condition}
+
+cart = {"phont" : 25000.00 , "lamp" : 2560.003,"table":5499.99,"pan" : 20.50, "bag":650.57}
+cart2 = {k : v for (k,v) in cart.items() if v>1000}
+
+print(cart2)
+
+
+#else 
+# var = {key : expression if else for (key,value) in iterable}
+
+cart3 = {key : val*9 if val>20000 else "no need" for (key,val) in cart.items()}
+
+print(cart3)
+
+
+
+
+
+
+
+# zip function
+
+item = ("phone","lamp","table","pen")
+
+price = (25000,2500,5200,15)
+
+
+zippedVal = list(zip(item,price))
+
+print(zippedVal)
+
+
+# function 
+
+# var = {key:func for (key,val) in iterable}
+cart2 = {"phone" : 25000.00 , "lamp" : 2560.003,"table":5499.99,"pan" : 20.50, "bag":650.57}
+
+def func_disc(k,v):
+    if(k=="table"):
+        v=v/5
+        
+    return v
+
+cart4 = {k : func_disc(k,v) for (k,v) in cart2.items()}
+
+print(cart4)
+
+
+a = 10
+c = 10
+b = 11
+
+
+print(id(a))
+print(id(c))
+print(id(b))
